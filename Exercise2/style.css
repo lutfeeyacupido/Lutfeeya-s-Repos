@@ -1,0 +1,53 @@
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+.row div {
+    background-color: rgb(226, 235, 244);
+    border: 1px solid rgb(249, 239, 239);
+    border-radius: 8px;
+    font-size: 20px text-align: center;
+    width: 300px;
+    position: center;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 20px;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 20px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.BContainer-button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.active-BContainer {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+}
